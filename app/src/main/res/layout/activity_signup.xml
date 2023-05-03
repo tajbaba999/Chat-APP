@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="193dp"
+            android:layout_height="149dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/college" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/app_logo"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="70dp"
+        android:hint="Name"
+        android:id="@+id/edit_Name"
+        android:textColorHint="@color/black"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/edit_background_blue"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edit_Name"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:id="@+id/edit_email"
+            android:textColorHint="@color/black"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:background="@drawable/edit_background_blue"
+            />
+
+
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_below="@+id/edit_email"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edit_background_blue"
+            android:paddingLeft="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="@drawable/edit_background_red"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_below="@+id/editTextTextPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+
+            />
+
+    </RelativeLayout>
