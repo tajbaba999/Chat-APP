@@ -12,6 +12,12 @@
         android:theme="@style/Theme.ChatApplication"
         tools:targetApi="31">
         <activity
+            android:name=".recieve"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="true">
             <intent-filter>
@@ -19,16 +25,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity
-            android:name=".Signup">
-
-        </activity>
-        <activity
-            android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
